@@ -1,0 +1,55 @@
+/* BASIC STYLES HERE */
+.profile-picture {
+  height: 200px;
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.profile-picture.profile-picture-sm {
+  height: 64px;
+}
+
+.overflowList{
+  max-height: 15em;
+  overflow-y: auto;
+}
+
+.completedTodo{
+  color: rgb(0, 153, 8);
+  font-weight: 600;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+}
+
+.quoteBody{
+  color: beige;
+  font-weight: 700;
+  font-size: larger;
+  background-color: black;
+  opacity: 60%;
+}
+
+.quoteBody:hover+#author-body{
+  display: block;
+  background-color: black;
+  opacity: 70%;
+}
+
+.authorBody{
+  color: beige;
+  font-size: large;
+  font-weight: 600;
+  display: none;
+}
+
+.weatherTemplate{
+  color: beige;
+  font-weight: 700;
+  font-size: larger;
+  background-color: black;
+  opacity: 60%;
+}
